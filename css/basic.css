@@ -1,1 +1,190 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+body {
+    padding: 0;
+    margin: 0;
+    
+    font-family: verdana;
+}
+
+a {
+    color: #51473d;
+}
+
+#container {
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 600px;
+    border: 1px solid #cecab9;
+    background: url('pics/coffey.jpg') top left no-repeat #51473d;
+    background-position: 0 20px;
+    
+}
+    #container #topbar {
+        /* font-family: verdana; */
+        font-size: 10px;
+        color: #ece9d4;
+        font-style: italic;
+        text-align: right;
+        line-height: 20px;
+        padding: 0 2px;
+        
+        background: #51473d;
+
+        height: 20px;
+    }
+    
+    #container #menu {
+        
+    }
+    
+        #container #menu  {
+
+        }
+        
+        #container #menu a {
+            display: none;
+        }
+        
+        #container #menu ul {
+            margin: 205px 0 0 0;
+            list-style: none;
+            display: block;
+            padding: 0 11px;
+        }
+        
+            #container #menu ul li {
+                font-size: 12px;
+                
+                text-transform: capitalize;
+                
+                margin: 0;
+                padding: 0;
+                display: block;
+                float: left;
+                
+                background: #797066;
+                
+                border-top: 1px solid #847c73;
+                border-left: 1px solid #51473d;
+            }
+            
+            #container #menu ul li a {
+                display: inline-block;
+                padding: 7px 21px;
+                
+                color: #eae7d2;
+                text-decoration: none;
+            }
+            
+            #container #menu ul li a:hover {
+                background-color: #9c9084;
+            }
+            
+            #container #menu ul li.active {
+                background: #eae7d2;
+                border-top: 1px solid #eae7d2;
+                
+                position: relative; 
+                top: 1px;
+            }
+            
+            #container #menu ul li.active a:hover {
+                background: #f0edd8;
+            }
+            
+            #container #menu ul li.active a {
+                color: #888076;
+                text-decoration: none;
+            }
+            
+    
+    #container #content {
+        background: #eae7d2;
+        padding: 20px 10px 15px 10px;
+        
+        border-top: 1px solid #ffffff;
+        
+        clear: both; /* Clearfix */
+    }
+    
+        #container #content #maincontent {
+            float: left;
+            width: 345px;
+            
+            font-size: 13px;
+            line-height: 22px;
+            color: #797066;
+        }
+        
+            #container #content #maincontent h1 {
+                font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+                font-weight: normal;
+                font-size: 32px;
+                color: #797066;
+                margin: 0px 0 12px 0;
+            }
+            
+            #container #content #maincontent img {
+                float: left;
+                margin: 5px 5px 5px 0;
+            }
+            
+            #container #content #maincontent p {
+                margin: 16px 0;
+            }
+        
+        #container #content #subcontent {
+            border-left: 1px dashed #c0c0c0;
+            float: right;
+            width: 215px;
+            padding: 0 0 0 10px;
+            
+            font-size: 13px;
+            line-height: 22px;
+            color: #797066;
+        }
+        
+            #container #content #subcontent h1 {
+                font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+                font-weight: normal;
+                font-size: 18px;
+                color: #51473d;
+                margin: 5px 0 12px 0;
+            }
+            
+            #container #content #subcontent p {
+                font-size: 10px;
+            }
+            
+            #container #content #subcontent h2 {
+                font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+                font-weight: normal;
+                font-size: 16px;
+                color: #51473d;
+                margin: 28px 0 0 0;
+            }
+            
+            #container #content #subcontent ul {
+                list-style: none;
+                margin: 0 0 12px 0;
+                padding: 0;
+            }
+            
+                #container #content #subcontent ul li {
+                    
+                }
+                
+                    #container #content #subcontent ul li a {
+                        
+                    }
+        
+        #container #content #bottomcontent {
+            width: 600px;
+            clear: both; 
+            
+            font-size: 10px;
+            font-style: italic;
+            color: #797066;
+        }
